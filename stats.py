@@ -11,14 +11,14 @@ heal_energy_list = []
 heal_id = []
 
 class General():
-    def __init__(self, health_points, shield, attack_points, luck, energy):
+    def __init__(self, health_points, shield, attack_points, luck, energy, baseEnergy):
         self.nickname = input(colored('Type the name of the characer: ', 'magenta'))
         self.health_points = health_points
         self.shield = shield
         self.attack_points = attack_points
         self.luck = luck
         self.energy = energy
-
+        self.baseEnergy = baseEnergy
 
     def get_hp(self):
         return self.health_points
@@ -60,6 +60,12 @@ class General():
         return self.energy
 
     def set_energy(self, n):
+        self.energy = n
+    
+    def get_baseEnergy(self):
+        return self.baseEnergy
+
+    def set_baseEnergy(self, n):
         self.energy = n
 
     

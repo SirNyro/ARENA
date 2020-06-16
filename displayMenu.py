@@ -131,3 +131,21 @@ def drawSecure():
                                                                       
     """
     print(colored(image, 'green'))
+
+def drawLevelUp():
+    image = """
+                                                                                     
+                                                                                     
+____     __________ ____     ___ __________ ____           ____     __________  
+`MM'     `MMMMMMMMM `Mb(     )d' `MMMMMMMMM `MM'           `MM'     `M`MMMMMMMb.
+ MM       MM         YM.     ,P   MM         MM             MM       M MM    `Mb 
+ MM       MM         `Mb     d'   MM         MM             MM       M MM     MM 
+ MM       MM          YM.   ,P    MM         MM             MM       M MM     MM 
+ MM       MMMMMMM     `Mb   d'    MMMMMMM    MM             MM       M MM    .M9  
+ MM       MM           YM. ,P     MM         MM             MM       M MMMMMMM9'  
+ MM       MM           `Mb d'     MM         MM             MM       M MM
+ MM       MM            YM,P      MM         MM             YM       M MM            
+ MM       MM            `MM'      MM         MM    /         8b     d8 MM
+_MMMMMMM _MMMMMMMMM      YP      _MMMMMMMMM _MMMMMMM          YMMMMM9  MM
+        """
+    print(colored(image, 'green'))
